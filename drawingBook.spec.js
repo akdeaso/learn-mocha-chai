@@ -18,3 +18,21 @@ describe("Positive test case for pageCount", () => {
     expect(pageCount(2059, 117)).equal(58);
   });
 });
+
+describe("Negative test case for pageCount", () => {
+  it("Should return 0 for n=-100 and p=3", () => {
+    expect(pageCount(-100, 3)).equal(0);
+  });
+  it("Should return 0 for n=500 and p=-1", () => {
+    expect(pageCount(500, -1)).equal(0);
+  });
+  it("Should return 0 for n=-99 and p=-121", () => {
+    expect(pageCount(-99, -121)).equal(0);
+  });
+  it("Should return 0 for n=0 and p=0", () => {
+    expect(pageCount(0, 0)).equal(0);
+  });
+  it("Should return 0 for n=50 and p=60", () => {
+    expect(pageCount(50, 60)).equal(0);
+  });
+});
