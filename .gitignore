@@ -1,0 +1,38 @@
+# Node.js modules
+node_modules/
+
+# Testing Coverage (if using)
+coverage/
+
+# Compiled test code (if using)
+__tests__/**/*.+(js|jsx|ts|tsx)
+
+# Editor temporary or backup files
+*.swp
+*.swo
+*.sdocx
+*.suo
+*.lst
+*.bak
+*.廟
+
+# OS specific temporary or backup files
+Thumbs.db
+Desktop.ini
+
+# IDE or test runner specific files
+.idea/
+.vscode/
+mocha.opts
+
+# Report and log files
+*.log
+*.xml
+
+# Other common exclusions
+package-lock.json
+yarn.lock
+npm-shrinkwrap.json
+env.local
+env.development
+env.production
