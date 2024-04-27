@@ -2,5 +2,25 @@
   "dependencies": {
     "chai": "^5.1.0",
     "mocha": "^10.4.0"
-  }
+  },
+  "name": "learn-mocha-chai",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "drawingBook.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha **/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akdeaso/learn-mocha-chai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akdeaso/learn-mocha-chai/issues"
+  },
+  "homepage": "https://github.com/akdeaso/learn-mocha-chai#readme",
+  "description": ""
 }
